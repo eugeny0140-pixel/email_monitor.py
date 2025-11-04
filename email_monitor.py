@@ -10,7 +10,6 @@ import threading
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from deep_translator import GoogleTranslator
 from supabase import create_client
-
 # === Логирование ===
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
