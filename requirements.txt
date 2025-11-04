@@ -1,4 +1,6 @@
 requests
+beautifulsoup4
+feedparser
 schedule
 deep-translator
 supabase==2.7.0
